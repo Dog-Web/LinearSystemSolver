@@ -56,7 +56,7 @@ for j in range(n):      #Every column has an answer ready for us
 # Displaying solution
 print('\nRequired solution is: ')
 for i in range(n):
-    print('X%d = %0.2f' %((i+1),x[i]), end = '\t')
+    print('X%d = %0.12g' %((i+1),x[i]), end = '\t')
 #Note:
 #Scaling and good pivoting are two seperate options,but the quality function relates two.
 
